@@ -1,0 +1,37 @@
+{
+  "name": "@levitade/css-toolkit",
+  "version": "0.1.0",
+  "description": "A toolkit for comparing the existence of CSS variables between two stylesheets",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levitade-io/css-toolkit.git"
+  },
+  "keywords": [
+    "css",
+    "variables",
+    "compare",
+    "tool"
+  ],
+  "author": "Bryan de Jong",
+  "bugs": {
+    "url": "https://github.com/levitade-io/css-toolkit/issues"
+  },
+  "homepage": "https://github.com/levitade-io/css-toolkit",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/postcss-js": "^4.0.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "postcss": "^8.4.38"
+  }
+}
